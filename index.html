@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mixitup@3.4.0/dist/mixitup.min.js"></script>
+    
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span class="j">J</span>ackie</a>
+        <nav class="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#hobbies" class="nav-link">Hobbies</a>
+            <a href="#photos" class="nav-link">Photos</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="toggle">
+            <i class='bx bx-moon toggle-icon'></i>
+        </div>
+    </header>
+
+<!--Home-->
+    <div id="home">
+    <section class="home">
+        <div class="home-content">
+            <h3>Welcome to Jackie's Portfolio</h3>
+            <h1>I'm<span class="underscore"></span><br>Jackie P. <span class="salvador">Salvador</span></h1>
+            <p>This website is my digital playground where I showcase my journey through the dynamic field 
+                of Information Technology.  From my educational background to my skills, hobbies, and more,
+                it's all here to inspire, connect, and innovate.</p>
+    </div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/formal2.png" alt="">
+        </div>
+    </section>
+
+    
+<!--About-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="border-glow"></div>
+            <img src="images/pictureID.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h5>I experienced and realized that studying in this field is not easy, but I believe<br> 
+                that with dedication and perseverance, we can overcome any challenge and achieve our goals.</h5>
+            <p>My goal is to learn more and expand  my technical skills and creativity to find<br>
+                a meaningful job in Information Technology. I want to work in a place where I can help<br>
+                 make a positive impact on society. Whether it's creating new software, making sure <br>
+                systems are secure, or exploring new technology, I'm excited to take challenges and<br> 
+                make a difference.
+            </p>
+            
+            <h4>To know more about me</h4>
+            <a href="#" class="btn" id="play-video-btn">Play video</a>
+            <div id="video-container" style="display: none;">
+            <video id="my-video" controls>
+            <source src="video/About Me.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+  </div>
+</section>
+    
+<!--Education-->
+    <div id="education">
+    <div class="education-container">
+        <h2 class="heading"> My <span>Education</span></h2>
+
+        <div class="education-wrapper">
+         <div class="education-box mySwiper">
+         <div class="education-content swiper-wrapper">
+                <div class="education-slide swiper-slide">
+                 <img src="images/elementary.jpg" alt="My graduting">
+                    <h3>Elementary</h3>
+                    <p>2010-2016<br>The elementary years marks the beginning of my journey of discovery and
+                         learning, which I truly enjoy as a kid. After school, I have nothing to worry about 
+                         except playing.</p>
+                </div>
+        
+                <div class="education-slide swiper-slide">
+                 <img src="images/highschool.jpg" alt="">
+                    <h3>Secondary</h3>
+                    <p>2016-2022<br>The secondary years mark the beginning of a new phase of discovery, 
+                        exploration, and growth. In senior high, I chose the General Academic Strand (GAS),
+                        which provided me with the opportunity to explore various subjects aligned
+                        with my interests and career goals. This allowed me to select courses that would 
+                        pave the way for my future endeavors.</p>
+                        </div>
+
+                        <div class="education-slide swiper-slide">
+                            <img src="images/college.jpg" alt="">
+                            <h3>College</h3>
+                            <p>2022<br>This year marks the start of my college journey, where I pursue a
+                                 Bachelor of Science in Information Technology. The program is challenging, pushing me 
+                                 to overcome obstacles and grow. I am starting to understand that the life of a college 
+                                 student is not easy, but I am determined to become stronger and finish my studies.</p>
+                        </div>
+        
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!--Skills-->
+    <section id="skills" class="skills">
+        <div class="main-text">
+            <div class="heading">
+            <h4 class="heding"> My <span>Skills</span></h4>
+            </div>
+            <p>Technical and Soft skills</p>
+        </div>
+    
+        <div class="skills-main">
+            <div class="skill-left">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <p>90%</p> 
+                </div>
+                    <div class="bar">
+                        <span class="html"  style="width: 90%;"></span>
+                    </div>
+                </div>
+    
+        <div class="skill-bar">
+            <div class="info">
+                <p>Java</p>
+                <p>86%</p> 
+            </div>
+            <div class="bar">
+                    <span class="figma"  style="width: 86%;"></span>
+                    </div>
+                </div>
+    
+            <div class="skill-bar">
+                <div class="info">
+                    <p>SQL</p>
+                    <p>89%</p> 
+                    </div>
+                <div class="bar">
+                    <span class="javascript"  style="width: 89%;"></span>
+                    </div>
+                </div>
+    
+            <div class="skill-bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <p>90%</p> 
+                </div>
+                <div class="bar">
+                    <span class="css"  style="width: 90%;"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-right">
+                <h3>Soft Skills</h3>
+                <div class="progress-container">
+                    <!--First Row-->
+                    <div class="progress-row">
+                        <div class="progress-circle" data-progress="86">
+                            <svg viewBox="0 0 100 100" class="circle-svg">
+                                <circle class="progress-bar-background" cx="50" cy="50" r="10"></circle>
+                                <circle class="progress-bar hardworking" cx="50" cy="50" r="10" style="stroke-dashoffset: calc(188.5 * (1 - 0.5));"></circle>
+                                <text x="50" y="50" text-anchor="middle" dy="0.3em" class="progress-percent">86%</text>
+                            </svg>
+                            <p>Time Management</p>
+                        </div>
+                        <div class="progress-circle" data-progress="94">
+                            <svg viewBox="0 0 100 100" class="circle-svg">
+                                <circle class="progress-bar-background" cx="50" cy="50" r="10"></circle>
+                                <circle class="progress-bar hardworking" cx="50" cy="50" r="10" style="stroke-dashoffset: calc(188.5 * (1 - 0.7));"></circle>
+                                <text x="50" y="50" text-anchor="middle" dy="0.3em" class="progress-percent">94%</text>
+                            </svg>
+                            <p>Teamwork</p>
+                        </div>
+                    </div>
+                    <!-- Second Row -->
+                    <div class="progress-row">
+                        <div class="progress-circle" data-progress="87">
+                            <svg viewBox="0 0 100 100" class="circle-svg">
+                                <circle class="progress-bar-background" cx="50" cy="50" r="10"></circle>
+                                <circle class="progress-bar hardworking" cx="50" cy="50" r="10" style="stroke-dashoffset: calc(188.5 * (1 - 0.8));"></circle>
+                                <text x="50" y="50" text-anchor="middle" dy="0.3em" class="progress-percent">87%</text>
+                            </svg>
+                            <p>Adaptability</p>
+                        </div>
+                        <div class="progress-circle" data-progress="90">
+                            <svg viewBox="0 0 100 100" class="circle-svg">
+                                <circle class="progress-bar-background" cx="50" cy="50" r="10"></circle>
+                                <circle class="progress-bar hardworking" cx="50" cy="50" r="10" style="stroke-dashoffset: calc(188.5 * (1 - 0.9));"></circle>
+                                <text x="50" y="50" text-anchor="middle" dy="0.3em" class="progress-percent">90%</text>
+                            </svg>
+                            <p>Active listening</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+    </section>
+
+<!--Hobbies-->
+    <section class="hobbies" id="hobbies">
+        <div class="main-text">
+            <h2 class="heading"> My <span>Hobbies</span></h2>
+            <p>This my different hobbies</p>
+        </div>
+        <div class="filter-button">
+            <button class="button" onclick="filterHobbies('all')">All hobbies</button>
+            <button class="button" onclick="filterHobbies('creative')">Creative Hobbies</button>
+            <button class="button" onclick="filterHobbies('mindful')">Mindful Hobbies</button>
+            <button class="button" onclick="filterHobbies('collecting')">Collecting Hobbies</button>
+        </div>
+        
+
+        <div class="hobbies-gallery">
+            <div class="hobbies-box mix creative">
+                <div class="hobbies-content">
+                    <h3>Painting</h3>
+                    <p>Painting helps me relax, and I really enjoy it because I get to 
+                        explore many combinations of colors. Especially when the output satisfies me,
+                        it brings me happiness.</p> 
+                </div>
+                <div class="hobbies-images">
+                    <img src="images/painting.jpg" alt=""/>
+                </div>
+            </div>
+
+            <div class="hobbies-box mix creative">
+                <div class="hobbies-content">
+                    <h3>Video editing</h3>
+                    <p>Video editing challenges me, but sometimes when I do it for school purposes,
+                         I find myself exploring editing techniques, which makes me enjoy it. So, when I 
+                         have free time, I often choose to edit videos.</p>  
+                </div>
+                <div class="hobbies-images">
+                    <img src="images/video editing.jpg" alt=""/>
+                </div>
+            </div>
+
+            <div class="hobbies-box mix mindful">
+                <div class="hobbies-content">
+                    <h3>Reading</h3>
+                    <p>Reading keeps me from getting bored, and through reading, I gain more knowledge and
+                       explore different perspectives. I love reading most genres, such as mystery, and 
+                       I also enjoy a bit of romance.</p>   
+                </div>
+                <div class="hobbies-images">
+                    <img src="images/reading.jpeg" alt=""/>
+                </div>
+            </div>
+
+            <div class="hobbies-box mix mindful">
+                <div class="hobbies-content">
+                    <h3>Watching</h3>
+                    <p>Watching K-dramas is my source of entertainment, and aside from that, I learn and explore 
+                        Korean culture. I often find myself learning valuable lessons while watching, and I also 
+                        get inspired from my favorite Korean actors and actresses.</p>    
+                </div>
+                <div class="hobbies-images">
+                    <img src="images/kdrama (2).jpg" alt=""/>
+                </div>
+            </div>
+            
+            <div class="hobbies-box mix collecting">
+                <div class="hobbies-content">
+                    <h3>Collecting merch </h3>
+                    <p>I'm a fan of K-pop, which is why I've been gradually collecting unofficial 
+                        merchandise of my favorite K-pop group, but as of now, I cannot afford
+                        the official merchandise from the company</p>
+                </div>
+                <div class="hobbies-images">
+                    <img src="images/merch.jpg" alt=""/>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+<!--Photos-->
+<section class="photos" id="photos">
+    <div class="main-text">
+        <h2 class="heading">My <span>Photos</span></h2>
+        <p>Click on the images to reveal the details</p>
+    </div>
+
+    <div class="photos-gallery">
+        <div class="photo-album">
+            <img src="images/photo1.jpg" alt="Photo 1">
+            <div class="album-details">
+                <h3>Photo 1</h3>
+                <p>Museum visit</p>
+            </div>
+        </div>
+
+        <div class="photo-album">
+            <img src="images/photo4.jpg" alt="Photo 3">
+            <div class="album-details">
+                <h3>Photo 3</h3>
+                <p>Formal Portrait</p>
+            </div>
+        </div>
+
+        <div class="photo-album">
+            <img src="images/photo3.jpg" alt="Photo 5">
+            <div class="album-details">
+                <h3>Photo 5</h3>
+                <p>Self-love Portrait</p>
+            </div>
+        </div>
+
+        <div class="photo-album">
+            <img src="images/photo2.jpg" alt="Photo 2">
+            <div class="album-details">
+                <h3>Photo 2</h3>
+                <p>Museum visit</p>
+            </div>
+        </div>
+
+        <div class="photo-album">
+            <img src="images/photo6.jpg" alt="Photo 4">
+            <div class="album-details">
+                <h3>Photo 4</h3>
+                <p>Event Attire</p>
+            </div>
+        </div>
+
+        <div class="photo-album">
+            <img src="images/photo5.jpg" alt="Photo 6">
+            <div class="album-details">
+                <h3>Photo 6</h3>
+                <p>Adventure Exploration</p>
+            </div>
+        </div>
+</section>
+
+
+    <!--Contact-->
+<section class="contact" id="contact">
+    <div class="main-text">
+        <h2 class="heading"> <span>Contact Me</span></h2>
+        <p>Feel free to get in touch</p>
+    </div>
+
+    <footer class="footer"> 
+        <div class="footer-content">
+            <div class="footer-info">
+                <i class="bx bx-map"></i>
+                <h4>Address</h4>
+                <p>Purok 4. Brgy. Bagacay, Calbayog City, Philippines</p>
+            </div>
+    
+            <div class="footer-info">
+                <i class="bx bx-mail-send"></i>
+                <h4>Email</h4>
+                <p>salvadorjackie417@gmail.com</p>
+            </div>
+    
+            <div class="footer-info">
+                <i class="bx bx-phone"></i>
+                <h4>Contact</h4>
+                <p>09265437808</p>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/jackie.salvador.1069?mibextid=ZbWKwL" style="--i:7"><i class='bx bxl-facebook-circle'></i> </a>
+            <a href="https://www.instagram.com/salvadorjackie.14" style="--i:8"><i class='bx bxl-instagram'></i> </a>
+            <a href="https://github.com/salvador14J/My-Portfolio-website" style="--i:9"><i class='bx bxl-github' ></i></a>
+        </div>
+    </footer>
+
+    <div class="message-form">
+        <h3>Send me a message</h3>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" name="user_name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="user_email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div id="success-message" style="display: none; color: blue; margin-top: 10px;">Message sent successfully!</div>
+    </div>    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
